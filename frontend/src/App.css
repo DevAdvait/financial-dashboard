@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(45deg, #4dabf5, #2068a9);
+}
+
+.bg-gradient-success {
+  background: linear-gradient(45deg, #5eba7d, #2f9e4d);
+}
+

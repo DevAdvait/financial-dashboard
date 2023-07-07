@@ -1,0 +1,49 @@
+.dtte {
+  margin: 20px;
+}
+
+.dtte-form-1,
+.dtte-form-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dtte-form-1 label,
+.dtte-form-2 label {
+  
+  flex-basis: 49%;
+}
+
+.dtte-gat {
+  margin-bottom: 20px;
+}
+
+.gains-after-tax {
+  font-weight: bold;
+}
+
+.dtte-table-1,
+.dtte-table-2,
+.dtte-table-3 {
+  margin-bottom: 20px;
+}
+
+.dtte-table-1 th,
+.dtte-table-2 th {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .dtte-form-1,
+  .dtte-form-2 {
+    flex-direction: column;
+  }
+
+  .dtte-form-1 label,
+  .dtte-form-2 label {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+.goal-tracker {
+  margin: 20px;
+}
+
+.goal-tracker-table-div {
+  overflow-x: auto;
+}
+
+.goal-tracker-table-1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.goal-tracker-table-2 th {
+  font-weight: bold;
+}
+
+.inputs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.goal-tracker-inputs label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+@media (max-width: 767px) {
+  .goal-tracker-table-div {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .goal-tracker-table-1,
+  .goal-tracker-table-2 {
+    flex: 1;
+    width: 100%;
+  }
+
+  .goal-tracker-table-2 {
+    margin-top: 20px;
+  }
+
+  .inputs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
