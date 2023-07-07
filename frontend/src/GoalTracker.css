@@ -12,20 +12,18 @@
 }
 
 .goal-tracker-table-2 th {
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .inputs {
   margin-top: 20px;
   margin-bottom: 20px;
-  
-
 }
 
 .goal-tracker-inputs label {
   display: block;
   margin-bottom: 5px;
-  
 }
 
 @media (max-width: 767px) {
@@ -33,7 +31,9 @@
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    
   }
+
 
   .goal-tracker-table-1,
   .goal-tracker-table-2 {
@@ -42,11 +42,20 @@
   }
 
   .goal-tracker-table-2 {
+    
     margin-top: 20px;
   }
 
   .inputs {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .goal-tracker-table-2 th {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .goal-tracker-table-2 td {
+    font-size: 0.8rem;
+    
   }
 }
